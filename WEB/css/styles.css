@@ -564,6 +564,44 @@
     top: 150px;
     left: 215px;
 }
+
+.nav_com {
+    height: 150px;
+    width: 70px;
+    margin: 0 95px;
+}
+
+.logo__footer {
+    font-family: Montserrat-Bold, sans-serif;
+    font-size: 16px;
+    color: #ff4e50;
+    text-align: center;
+}
+
+.nav_title {
+ font-size: 14px;
+    font-family: Montserrat-Bold, sans-serif;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+
+a {
+    font-family: Roboto-Light, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #8f8f8f;
+    text-decoration: none;
+}
+
+.menu {
+    text-align: left;
+}
+
+
 /*=======================================================================================================================*/
 
 @media screen and (max-width: 576px) and (min-width: 320px){
@@ -786,6 +824,35 @@
         left: 210px;
     }
 
+    .nav_com_offer {
+        margin: 10px auto;
+
+    }
+    .nav_com {
+        height: 50px;
+        margin: 10px auto;
+    }
+
+    .logo_img {
+        text-align: center;
+    }
+    .nav_title {
+        margin: 0 auto;
+    }
+
+    .nav_com_offer {
+        display: inline-block;
+        margin: 10px 7px;
+    }
+
+    .menu {
+        text-align: center;
+    }
+
+    .logo_img {
+        margin-top: 10px;
+    }
+
 }
 
 @media screen and (max-width: 1200px) and (min-width: 992px){
@@ -795,6 +862,12 @@
 
     .box_6 {
         width: 620px;
+    }
+
+    .nav_com {
+        height: 150px;
+        width: 70px;
+        margin: 0 auto;
     }
 }
 
@@ -929,6 +1002,11 @@
         top: 180px;
     }
 
+    .nav_com {
+        height: 150px;
+        width: 70px;
+        margin: 0 auto;
+    }
 }
 
 @media screen and (max-width: 767px) and (min-width: 576px) {
@@ -1057,5 +1135,11 @@
     .btn_right {
         top: 200px;
         left: 310px;
+    }
+
+    .nav_com {
+        height: 150px;
+        width: 70px;
+        margin: 0 auto;
     }
 }
