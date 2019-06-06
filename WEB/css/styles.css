@@ -853,6 +853,10 @@ a {
         margin-top: 10px;
     }
 
+    .header {
+        height: 540px;
+    }
+
 }
 
 @media screen and (max-width: 1200px) and (min-width: 992px){
